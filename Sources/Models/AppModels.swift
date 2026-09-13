@@ -233,6 +233,12 @@ struct CollectedEntry: Identifiable, Codable, Hashable {
     var id: UUID
     var characterId: UUID
     var date: Date
+
+    init(id: UUID = UUID(), characterId: UUID, date: Date) {
+        self.id = id
+        self.characterId = characterId
+        self.date = date
+    }
 }
 
 /// 应用完整数据

@@ -162,7 +162,7 @@ struct OpeningAnimationView: View {
 }
 
 #Preview {
-    OpeningAnimationView(instance: DataStore.shared.data.instances.first ?? TaskInstance(templateId: UUID(), characterId: UUID(), categoryId: UUID(), title: "测试任务", description: "", rewardPoints: 10, timeoutPenalty: 3, skipCost: 30, timeLimitMinutes: 60, difficulty: .normal),
+    OpeningAnimationView(instance: DataStore.shared.data.instances.first ?? TaskInstance(templateId: UUID(), characterId: UUID(), categoryId: UUID(), title: "测试任务", description: "", rewardPoints: 10, timeoutPenalty: 3, skipCost: 30, timeLimitMinutes: 60, difficulty: .normal, rarity: .normal),
                         slot: 5, onClose: {})
         .environmentObject(DataStore.shared)
 }
