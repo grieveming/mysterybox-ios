@@ -1,0 +1,19 @@
+# Xcode
+build/
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+Payload/
+
+# Generated project (xcodegen)
+MysteryBoxApp.xcodeproj
+
+# OS
+.DS_Store
+
+# Exports
+*_export.json
